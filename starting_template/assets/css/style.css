@@ -382,14 +382,181 @@ input[type=submit] {
   border: 0 none;
 }
 
+.navbarfloat{
+
+  float: right;
+}
+
+
 @media only screen and (max-width: 980px) {
+
+  .wrapper {
+    height: auto !important;
+    height: 100%;
+  
+    /* Box-model */
+    min-height: 100%;
+  
+    /* Positioning */
+    margin: auto;
+  }
   
 }
 
 @media only screen and (max-width: 768px) {
+
   
+.wrapper {
+  height: auto !important;
+  height: 100%;
+
+  /* Box-model */
+  min-height: 100%;
+
+  /* Positioning */
+  margin: auto;
+}
+  
+  #masthead {
+    position: fixed;
+    z-index: 99;
+  
+    /* Box-model */
+    width: 100%;
+  
+    /* Positioning */
+    margin: 0 0 30px;
+    overflow: none;
+  
+    /* Typography */
+    color: #fff;
+    background: #fff;
+  
+    /* Visual */
+    border-bottom: 2px solid #ccc;
+  }
+
+
+ 
+  
+  .container{
+    width: 100%;
+    max-width: 728px;
+  
+    /* Positioning */
+    margin: auto;
+  }
+
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 95%;
+  
+    /* Box-model */
+    padding: 30px;
+  
+    /* Positioning */
+    margin: 0 0 40px;
+    background: #fff;
+  
+    /* Visual */
+    border: 1px solid #ddd;
+
+    position: relative;
+    left: 2.5%;
+  }
+
+
 }
 
 @media only screen and (max-width: 640px) {
  
+  
+  .container {
+    /* Box-model */
+    width: 100%;
+    max-width: 600px;
+  
+    /* Positioning */
+    margin: 0 auto;
+    clear: both;
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 95%;
+  
+    /* Box-model */
+    padding: 30px;
+  
+    /* Positioning */
+    margin: 0 0 40px;
+    background: #fff;
+  
+    /* Visual */
+    border: 1px solid #ddd;
+
+    position: relative;
+    left: 2.5%;
+  }
+
+  .work {
+    /* Positioning */
+    position: none;
+    float: none;
+  
+    /* Box-model */
+    width: 274px;
+    margin: 20px 0 25px;
+ 
+  }
+
+  
+  .work img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+
+  #masthead {
+
+    /* Box-model */
+    width: 100%;
+  
+    /* Positioning */
+    margin: 0 0 30px;
+  
+    /* Typography */
+    color: #fff;
+    background: #fff;
+  
+    /* Visual */
+    border-bottom: 2px solid #ccc;
+  }
+
+
+  #logo {
+    float: left;
+  
+    /* Box-model */
+    width: 100%;
+    height: 90px;
+  }
+
+  
+  nav {
+    /* Box-model */
+    float: left;
+    
+    /* Positioning */
+    width: 100%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
 }
